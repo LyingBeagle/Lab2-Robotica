@@ -1,0 +1,36 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/kitchen/breakfast/protos/BiscuitBox.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.6359667635798838 -0.34451216936188306 -0.690548796815473 3.770441565772504
+  position 0.1409930759310159 -0.5307741392971881 2.6943171672403716
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+E-puck {
+  hidden position_0_0 -3925.830332564506
+  hidden position_0_1 7434.406654358781
+  hidden linearVelocity_0 -0.011859063563872826 -0.003941114273843956 4.743490800487666e-06
+  hidden angularVelocity_0 -0.0012525900660012351 0.003314858484383369 0.0006098274513776004
+  hidden rotation_1 0 -1 0 5.122700884444118
+  hidden linearVelocity_1 -0.01185900034042764 -0.003917338639958351 -4.949459741352485e-07
+  hidden angularVelocity_1 0.19592948198227403 -0.5929266101682821 -0.00023361496798570701
+  hidden rotation_2 0 -1 0 4.884749341848936
+  hidden linearVelocity_2 -0.011845146933949433 -0.003958735443995647 -2.966605205064904e-07
+  hidden angularVelocity_2 0.19787418919908867 -0.5922806544021441 0.0006482122777184528
+  translation 0.16994695065862642 0.0001115972460863415 -6.475030043311993e-05
+  rotation 0.00018481203393096187 1.7309938295994737e-05 0.999999982772439 -2.820867531392657
+  controller "my_controller"
+}

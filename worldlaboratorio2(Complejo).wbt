@@ -1,0 +1,41 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/kitchen/breakfast/protos/BiscuitBox.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.6359667635798838 -0.34451216936188306 -0.690548796815473 3.770441565772504
+  position 0.13284563386201234 -0.533430234191405 2.694921404852386
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+CardboardBox {
+  translation -0.076396 0.217169 0.16
+  rotation 0 0 1 -0.261795307179586
+  size 0.3 0.3 0.3
+}
+CardboardBox {
+  translation 0.138835 -0.254604 0.16
+  rotation 0 0 1 -0.261795307179586
+  name "cardboard box(1)"
+  size 0.3 0.3 0.3
+}
+E-puck {
+  hidden position_0_0 -3925.452804196283
+  hidden position_0_1 7423.217864913373
+  hidden rotation_1 0 -1 0 4.745172516221107
+  hidden rotation_2 0 -1 0 3.507168172898238
+  translation 0.192063 -0.00157302 0.000365296
+  rotation -0.0007325916934223219 -0.002872827080865092 0.9999956050773294 -0.6210471175574765
+  controller "my_controller"
+}
